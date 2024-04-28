@@ -1,0 +1,44 @@
+body {
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('download.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+}
+.navbar li {
+    margin-right: 20px;
+    cursor: p;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-button {
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta-button-watch {
+    background-color: teal;
+}
+
+.cta-button-subscribe {
+    background-color: orange;
+}
